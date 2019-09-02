@@ -8,12 +8,12 @@ const main = async (api_url) => {
     const dateOfOccurrence = new Date(item.properties['time']).toString();
     
     console.log(
-`[*] place of occurrence: ${item.properties['place']}
-[*] Date of occurrence: ${dateOfOccurrence}
-[*] Magnitude of occurrence: ${item.properties['mag']}
-[*] longitude of occurrence: ${item.geometry.coordinates[0]}
-[*] latitude of occurrence: ${item.geometry.coordinates[1]}
-[*] depth of occurrence: ${item.geometry.coordinates[2]} km
+`[*] Earthquake location: ${item.properties['place']}
+[*] Date: ${dateOfOccurrence}
+[*] Magnitude: ${item.properties['mag']}
+[*] Longitude: ${item.geometry.coordinates[0]}
+[*] Latitude: ${item.geometry.coordinates[1]}
+[*] Depth: ${item.geometry.coordinates[2]} km
 `
     )
   }); 
