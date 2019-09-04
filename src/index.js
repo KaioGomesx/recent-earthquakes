@@ -9,11 +9,11 @@ const main = async (api_url) => {
     
     console.log(
 `[*] Earthquake location: ${item.properties['place']}
-[*] Date: ${dateOfOccurrence}
-[*] Magnitude: ${item.properties['mag']}
-[*] Longitude: ${item.geometry.coordinates[0]}
-[*] Latitude: ${item.geometry.coordinates[1]}
-[*] Depth: ${item.geometry.coordinates[2]} km
+Date: ${dateOfOccurrence}
+Magnitude: ${item.properties['mag']}
+Longitude: ${item.geometry.coordinates[0]}
+Latitude: ${item.geometry.coordinates[1]}
+Depth: ${item.geometry.coordinates[2]} km
 `
     )
   }); 
