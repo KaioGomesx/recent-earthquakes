@@ -8,7 +8,7 @@
 ##### Clone the repository to your computer:
 
 ```
-$ git clone https://github.com/RIS33/recent-earthquakes
+$ git clone https://github.com/KaioGomesx/recent-earthquakes
 ```
 
 #### Change to the application directory 
