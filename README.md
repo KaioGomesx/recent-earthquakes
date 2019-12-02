@@ -41,4 +41,4 @@ or
 $ npm start
 ```
 
-###### You can contact me via telegram: https://t.me/KaioZZZZZz
+###### You can contact me via telegram: https://t.me/kaiilou
